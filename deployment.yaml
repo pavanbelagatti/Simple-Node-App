@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nodeapp
+  name: node-deployment
   labels:
-    name: nodeapp
+    app: node-app
 spec:
+  replicas: 3
   selector:
     matchLabels:
-      name: nodeapp
+      app: node-app
   template:
     metadata:
       labels:
-        name: nodeapp
+        app: node-app
     spec:
       containers:
-        - name: nodeapp
-          image: pavansa/myapp
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 3002
+      - name: node-deployment
+        image: pavansa/simple-node-app
+        ports:
+        - containerPort: 3002
