@@ -16,6 +16,6 @@ spec:
       containers:
         - name: nodeapp
           image: pavansa/myapp
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - containerPort: 3002
