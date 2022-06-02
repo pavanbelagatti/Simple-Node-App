@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node-deployment
-        image: pavansa/simple-node-app
+        image: pavansa/simple-node-app:latest
         resources:
           requests:
             cpu: "100m"
