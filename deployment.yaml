@@ -17,5 +17,9 @@ spec:
       containers:
       - name: node-deployment
         image: pavansa/simple-node-app
+        resources:
+          requests:
+            cpu: "100m"
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3002
