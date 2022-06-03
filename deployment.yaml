@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: node-deployment
+  name: app-deployment
   labels:
     app: node-app
 spec:
@@ -15,8 +15,8 @@ spec:
         app: node-app
     spec:
       containers:
-      - name: node-deployment
-        image: pavansa/simple-app:latest
+      - name: app-deployment
+        image: pavansa/mumbai-app:latest
         resources:
           requests:
             cpu: "100m"
