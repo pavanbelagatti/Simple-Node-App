@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-service
+  namespace: default
+spec:
+  ports:
+    - port: 3002
+  type: LoadBalancer
+  selector:
+    app: node-app
