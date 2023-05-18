@@ -1,0 +1,12 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:15.781Z","msg":"Using New Relic for Node.js. Agent version: 10.1.1; Node version: v18.12.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:15.883Z","msg":"Using LegacyContextManager"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:15.891Z","msg":"Adding destroy hook to clean up unresolved promises.","component":"async_hooks"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:15.929Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:16.292Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:16.292Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:21.435Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:21.445Z","msg":"Connected to collector-005.newrelic.com:443 with agent run ID BfKAZAbdsB0CADwgzyGrAddkZb6kAAgBAAAnIQEAASA7AgQhrs07AwAGMTAuMS4xAA9QYXZhbiBCZWxhZ2F0dGkAFnNpbXBsZS1ub2RlLWFwcC1tb2l0b3I.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:21.445Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/3940559/applications/565103931","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:21.457Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"log_event_data\":833,\"analytic_event_data\":833,\"custom_event_data\":250}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:21.489Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Pavan Belagatti","pid":73787,"time":"2023-05-18T05:57:22.491Z","msg":"Starting initial 1000ms harvest."}
